@@ -14,7 +14,7 @@ Ensure you have the following dependencies installed:
 **Hardware Requirements**:
 
 - **RAM**: At least 60GB to 100GB of RAM is recommended for optimal performance during training, especially when dealing with large datasets.
-
+- **GPU**: A GPU with at least 16GB of VRAM is recommended for training
 ```
 pip install -r requirements.txt
 ```
