@@ -44,7 +44,7 @@ We shared our approach detail in a Kaggle discussion post. You can find the deta
 
 ## License
 
-This project is licensed under the [MIT License]().
+This project is licensed under the [MIT License](https://github.com/chronoscop/JS-Public-LB-26th-training-code/blob/main/LICENSE).
 
 ## Contributing
 
