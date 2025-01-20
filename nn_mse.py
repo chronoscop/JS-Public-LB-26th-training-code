@@ -78,7 +78,7 @@ def r2_val(y_true, y_pred, sample_weight):
 print("< read parquet >")
 weights = []
 train = pd.DataFrame()  # 初始化
-
+# change the data path to yours
 # 读取多个分区的训练数据
 for i in range(0, 10):
     print(f"Reading partition {i}...")
