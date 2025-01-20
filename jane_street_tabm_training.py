@@ -45,7 +45,7 @@ label2_idx = feature_names.index(label2_name)
 weight_idx = feature_names.index(weight_name)
 
 
-
+# change the data path to yours
 input_path = 'root/data_pre'
 train_original = pl.scan_parquet(f"{input_path}/training.parquet").sort(['date_id', 'time_id', 'symbol_id'])
 valid_original = pl.scan_parquet(f"{input_path}/validation.parquet").sort(['date_id', 'time_id', 'symbol_id'])
