@@ -11,6 +11,7 @@ target_col = "responder_6"
 lag_cols_original = ["date_id", "symbol_id"] + [f"responder_{idx}" for idx in range(9)]
 lag_cols_rename = { f"responder_{idx}" : f"responder_{idx}_lag_1" for idx in range(9)}
 
+# change to your data path
 train = pl.scan_parquet("/kaggle/input/jane-street-real-time-market-data-forecasting/train.parquet")
 train_df = train.collect()
 
