@@ -51,7 +51,7 @@ def reduce_mem_usage(df, float16_as32=True):
     print('Decreased by {:.1f}%'.format(100 * (start_mem - end_mem) / start_mem))
     return df
 
-    
+# change the data path to yours
 file_paths = [f"/kaggle/input/janestree-process-data/train_folder/partition_id={i}/train_data_0.parquet" for i in range(5, 9)]
 file_paths.append("/kaggle/input/janestree-process-data/val_folder/partition_id=1/val_data_0.parquet")
 file_paths.append("/kaggle/input/janestree-process-data/val_folder/partition_id=2/val_data_0.parquet")
